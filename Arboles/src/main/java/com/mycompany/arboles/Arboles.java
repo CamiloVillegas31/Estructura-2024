@@ -1,16 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.arboles;
 
-/**
- *
- * @author User
- */
 public class Arboles {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ArbolBinario arbol = new ArbolBinario();
+
+        arbol.insertar(50);
+        arbol.insertar(30);
+        arbol.insertar(60);
+        arbol.insertar(35);
+
     }
 }
